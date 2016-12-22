@@ -12,9 +12,9 @@ def _format_addr(s):
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
 
-from_addr = '769782384@qq.com'
+from_addr = ''
 password = input('Password: ')
-to_addr = 'hl19926017@163.com'
+to_addr = ''
 smtp_server = 'smtp.qq.com'
 
 msg = MIMEText('hello, send by Python...', 'plain', 'utf-8')
