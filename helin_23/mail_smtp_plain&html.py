@@ -13,9 +13,9 @@ def _format_addr(s):
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
 
-from_addr = 'hl19926017@163.com'
+from_addr = ''
 password = input('Password: ')
-to_addr = '769782384@qq.com'
+to_addr = ''
 smtp_server = 'smtp.163.com'
 
 
