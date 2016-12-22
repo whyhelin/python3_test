@@ -10,8 +10,8 @@ import poplib
 # 第二部：用email解析原始文本，还原为邮件对象。
 
 # 输入邮件地址, 口令和POP3服务器地址:
-email = '769782384@qq.com'
-password = 'history1992helin1992'
+email = ''
+password = ''
 pop3_server = 'pop.qq.com'
 global mailcontent
 
